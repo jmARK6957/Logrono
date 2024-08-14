@@ -1,0 +1,68 @@
+/* Apply a gray background to the entire page */
+body {
+    background-color: #f0f0f0; /* Light gray */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Darker text color for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the main container */
+main {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Style the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+}
+
+/* Style the submit button */
+button {
+    padding: 10px;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Fix missing closing tag and corrected typo */
+.form-group {
+    margin-bottom: 20px;
+}
